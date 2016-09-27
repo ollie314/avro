@@ -27,6 +27,10 @@ Trunk (not yet released)
 
     AVRO-1879: Make conversions field static. (Michael Wong via blue)
 
+    AVRO-1919: Formalize the presence of build.sh. (Suraj Acharya via cutting)
+
+    AVRO-1918: Improve logical type documentation. (Gabor Szadovszky via cutting)
+
   BUG FIXES
 
     AVRO-1741: Python3: Fix error when codec is not in the header.
@@ -62,6 +66,12 @@ Trunk (not yet released)
 
     AVRO-1901: Record named "Exception" generated bad code.
     (Radai Rosenblatt via Niels Basjes)
+
+    AVRO-1849: C++: printJson fails on record with no fields.
+    (Simon Woodford vai tomwhite)
+
+    AVRO-1853: C++: Compiler::toBin crashes on empty string.
+    (Zoltan Ivanfi via tomwhite)
 
 Avro 1.8.1 (14 May 2016)
 
